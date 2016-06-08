@@ -14,4 +14,14 @@ struct Penguin {
     var name: String
     var species: String
     var image: UIImage
+    
+    func speak() {
+        print( "Penguin noises!!!!!!!" )
+    }
+    
+    func trumpetNumberOfTimes( number num:Int ){
+        for _ in 1...num {
+            speak()
+        }
+    }
 }
