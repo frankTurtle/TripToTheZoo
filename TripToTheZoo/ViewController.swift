@@ -20,7 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var myPenguin = Penguin( age:3, name:"Wheezy", species:"Gentoo", image: UIImage(named: "GentooPenguin.jpg")! )
+        var myPenguin = Penguin( age:3,
+                                name:"Wheezy",
+                                species:"Gentoo",
+                                image: UIImage(named: "GentooPenguin.jpg")! )
+        
+        nameLabel.text = myPenguin.name //.................. update labels
+        speciesLabel.text = myPenguin.species
+        pictureImageView.image = myPenguin.image
     }
 
     override func didReceiveMemoryWarning() {
