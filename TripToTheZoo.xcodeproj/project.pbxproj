@@ -12,6 +12,7 @@
 		980715EE1D088B1E0096E997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980715EC1D088B1E0096E997 /* Main.storyboard */; };
 		980715F01D088B1E0096E997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980715EF1D088B1E0096E997 /* Assets.xcassets */; };
 		980715F31D088B1E0096E997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980715F11D088B1E0096E997 /* LaunchScreen.storyboard */; };
+		980715FB1D08B8330096E997 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980715FA1D08B8330096E997 /* Penguin.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		980715EF1D088B1E0096E997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		980715F21D088B1E0096E997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		980715F41D088B1E0096E997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980715FA1D08B8330096E997 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				980715E81D088B1E0096E997 /* AppDelegate.swift */,
 				980715EA1D088B1E0096E997 /* ViewController.swift */,
+				980715FC1D08B8AD0096E997 /* Model */,
 				980715EC1D088B1E0096E997 /* Main.storyboard */,
 				980715EF1D088B1E0096E997 /* Assets.xcassets */,
 				980715F11D088B1E0096E997 /* LaunchScreen.storyboard */,
 				980715F41D088B1E0096E997 /* Info.plist */,
 			);
 			path = TripToTheZoo;
+			sourceTree = "<group>";
+		};
+		980715FC1D08B8AD0096E997 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				980715FA1D08B8330096E997 /* Penguin.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			files = (
 				980715EB1D088B1E0096E997 /* ViewController.swift in Sources */,
 				980715E91D088B1E0096E997 /* AppDelegate.swift in Sources */,
+				980715FB1D08B8330096E997 /* Penguin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 				980715F91D088B1E0096E997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
