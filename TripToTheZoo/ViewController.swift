@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var myPenguin = Penguin( age:3, name:"Wheezy", species:"Gentoo", image: UIImage(named: "GentooPenguin.jpg")! )
     }
 
     override func didReceiveMemoryWarning() {
