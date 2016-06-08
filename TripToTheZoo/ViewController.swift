@@ -29,8 +29,9 @@ class ViewController: UIViewController {
         speciesLabel.text = myPenguin.species
         pictureImageView.image = myPenguin.image
         
-        myPenguin.speak() //................................ call instance method
+        myPenguin.speak() //................................ call instance methods
         myPenguin.trumpetNumberOfTimes(number: 15)
+        myPenguin.speakANumberOfTimes(numberOfTimes: 2, isLoud: true)
     }
 
     override func didReceiveMemoryWarning() {
