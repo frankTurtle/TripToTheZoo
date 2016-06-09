@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         myPenguin.speak() //................................ call instance methods
         myPenguin.trumpetNumberOfTimes(number: 15)
         myPenguin.speakANumberOfTimes(numberOfTimes: 2, isLoud: true)
+        
+        funFactLabel.text = myPenguin.randomFact() //....... throws a random fact into the label
     }
 
     override func didReceiveMemoryWarning() {

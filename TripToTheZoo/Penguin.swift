@@ -39,4 +39,12 @@ struct Penguin {
             }
         }
     }
+    
+    // Method to return a random fact based on a random number
+    func randomFact() -> String {
+        let randomNumber = Int( arc4random_uniform(UInt32(3)) )
+        let randomFactsArray = [ "random fact 1", "random fact 2", "random fact 3" ]
+        
+        return randomFactsArray[ randomNumber ]
+    }
 }
