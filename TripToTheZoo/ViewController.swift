@@ -25,6 +25,11 @@ class ViewController: UIViewController {
                                 species:"Gentoo",
                                 image: UIImage(named: "GentooPenguin.jpg")! )
         
+        let animalInstance = Animal() //.................... creates a new animal
+        animalInstance.speak() //........................... testing out methods
+        print( animalInstance.randomFact() )
+        print( animalInstance.bodyStatistics.height ) //.... testing out stats struct
+        
         nameLabel.text = myPenguin.name //.................. update labels
         speciesLabel.text = myPenguin.species
         pictureImageView.image = myPenguin.image
