@@ -11,6 +11,7 @@ import UIKit
 
 class Animal{
     var bodyStatistics = BodyStatistics()
+    var personalInfo = PersonalInformation()
     
     // Method to make the animal speak
     func speak() {

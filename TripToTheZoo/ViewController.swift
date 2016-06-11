@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         animalInstance.speak() //........................... testing out methods
         print( animalInstance.randomFact() )
         print( animalInstance.bodyStatistics.height ) //.... testing out stats struct
+        print( animalInstance.personalInfo.name ) //........ testing peraonal info struct
         
         nameLabel.text = myPenguin.name //.................. update labels
         speciesLabel.text = myPenguin.species
