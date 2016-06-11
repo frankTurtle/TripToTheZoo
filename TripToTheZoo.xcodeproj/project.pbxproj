@@ -19,6 +19,8 @@
 		98E3C2BA1D0C7F24000E1950 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B91D0C7F24000E1950 /* Tiger.swift */; settings = {ASSET_TAGS = (); }; };
 		98E3C2BC1D0C7FC3000E1950 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2BB1D0C7FC3000E1950 /* Factory.swift */; settings = {ASSET_TAGS = (); }; };
 		98E3C2BE1D0C8262000E1950 /* Elephant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2BD1D0C8262000E1950 /* Elephant.swift */; settings = {ASSET_TAGS = (); }; };
+		98E3C2C01D0C85C2000E1950 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2BF1D0C85C2000E1950 /* Lion.swift */; settings = {ASSET_TAGS = (); }; };
+		98E3C2C21D0C8642000E1950 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2C11D0C8642000E1950 /* LionCub.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		98E3C2B91D0C7F24000E1950 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 		98E3C2BB1D0C7FC3000E1950 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		98E3C2BD1D0C8262000E1950 /* Elephant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elephant.swift; sourceTree = "<group>"; };
+		98E3C2BF1D0C85C2000E1950 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		98E3C2C11D0C8642000E1950 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */,
 				98E3C2B91D0C7F24000E1950 /* Tiger.swift */,
 				98E3C2BB1D0C7FC3000E1950 /* Factory.swift */,
+				98E3C2C11D0C8642000E1950 /* LionCub.swift */,
+				98E3C2BF1D0C85C2000E1950 /* Lion.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -169,9 +175,11 @@
 				98E3C2B41D0C6F6B000E1950 /* Animal.swift in Sources */,
 				98E3C2BA1D0C7F24000E1950 /* Tiger.swift in Sources */,
 				980715E91D088B1E0096E997 /* AppDelegate.swift in Sources */,
+				98E3C2C21D0C8642000E1950 /* LionCub.swift in Sources */,
 				98E3C2B81D0C7676000E1950 /* PersonalInformation.swift in Sources */,
 				980715FB1D08B8330096E997 /* Penguin.swift in Sources */,
 				98E3C2BE1D0C8262000E1950 /* Elephant.swift in Sources */,
+				98E3C2C01D0C85C2000E1950 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
