@@ -17,6 +17,7 @@
 		98E3C2B61D0C75BD000E1950 /* BodyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B51D0C75BD000E1950 /* BodyStatistics.swift */; settings = {ASSET_TAGS = (); }; };
 		98E3C2B81D0C7676000E1950 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */; settings = {ASSET_TAGS = (); }; };
 		98E3C2BA1D0C7F24000E1950 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B91D0C7F24000E1950 /* Tiger.swift */; settings = {ASSET_TAGS = (); }; };
+		98E3C2BC1D0C7FC3000E1950 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2BB1D0C7FC3000E1950 /* Factory.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		98E3C2B51D0C75BD000E1950 /* BodyStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyStatistics.swift; sourceTree = "<group>"; };
 		98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		98E3C2B91D0C7F24000E1950 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
+		98E3C2BB1D0C7FC3000E1950 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				98E3C2B51D0C75BD000E1950 /* BodyStatistics.swift */,
 				98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */,
 				98E3C2B91D0C7F24000E1950 /* Tiger.swift */,
+				98E3C2BB1D0C7FC3000E1950 /* Factory.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E3C2BC1D0C7FC3000E1950 /* Factory.swift in Sources */,
 				980715EB1D088B1E0096E997 /* ViewController.swift in Sources */,
 				98E3C2B61D0C75BD000E1950 /* BodyStatistics.swift in Sources */,
 				98E3C2B41D0C6F6B000E1950 /* Animal.swift in Sources */,

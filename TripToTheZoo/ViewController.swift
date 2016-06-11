@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let myTiger = Factory.createTiger() //................ use the factory to create a Tiget object
+        
         let myPenguin = Penguin( age:3,
                                 name:"Wheezy",
                                 species:"Gentoo",
