@@ -16,6 +16,7 @@
 		98E3C2B41D0C6F6B000E1950 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B31D0C6F6B000E1950 /* Animal.swift */; settings = {ASSET_TAGS = (); }; };
 		98E3C2B61D0C75BD000E1950 /* BodyStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B51D0C75BD000E1950 /* BodyStatistics.swift */; settings = {ASSET_TAGS = (); }; };
 		98E3C2B81D0C7676000E1950 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */; settings = {ASSET_TAGS = (); }; };
+		98E3C2BA1D0C7F24000E1950 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3C2B91D0C7F24000E1950 /* Tiger.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		98E3C2B31D0C6F6B000E1950 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		98E3C2B51D0C75BD000E1950 /* BodyStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyStatistics.swift; sourceTree = "<group>"; };
 		98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
+		98E3C2B91D0C7F24000E1950 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				98E3C2B31D0C6F6B000E1950 /* Animal.swift */,
 				98E3C2B51D0C75BD000E1950 /* BodyStatistics.swift */,
 				98E3C2B71D0C7676000E1950 /* PersonalInformation.swift */,
+				98E3C2B91D0C7F24000E1950 /* Tiger.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				980715EB1D088B1E0096E997 /* ViewController.swift in Sources */,
 				98E3C2B61D0C75BD000E1950 /* BodyStatistics.swift in Sources */,
 				98E3C2B41D0C6F6B000E1950 /* Animal.swift in Sources */,
+				98E3C2BA1D0C7F24000E1950 /* Tiger.swift in Sources */,
 				980715E91D088B1E0096E997 /* AppDelegate.swift in Sources */,
 				98E3C2B81D0C7676000E1950 /* PersonalInformation.swift in Sources */,
 				980715FB1D08B8330096E997 /* Penguin.swift in Sources */,
